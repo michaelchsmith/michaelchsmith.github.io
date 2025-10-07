@@ -4,6 +4,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+// Listening to a button click.
+$('[data-switch]').on('click', function (e) {
+    var $page = $('#contentbody'),
+        blockToShow = e.currentTarget.getAttribute('data-switch');
+
+    // Hide all children.
+    $page.children().hide();
+
+    // And show the requested component.
+    $page.children(blockToShow).show();
+});
+
 (function($) {
 
 	var $window = $(window),

@@ -19,11 +19,15 @@
 
 		<!-- Main -->
 			<div id="main">
+				<!--Tab Buttons-->
+				<div class="button-bar">
+					<h2>
+					<button class="text-button" data-switch="#aboutme">About Me</button>
+					<button class="text-button" data-switch="#projects">Projects</button>
+					<button class="text-button" data-switch="#engineering philosophy">Engineering Philosophy</button>
+					</h2>
+				</div>
 
-				<!-- One -->
-					<section id="one">
-						<h4>I am an embedded systems engineer with hands-on experience across the full product lifecycle — from concept and design, through prototyping and development, to testing, manufacturing, and deployment. My work includes hardware design all the way through to firmware/software interactions. I combine my technical depth with a grounded approach focusing on delivering something real and impactful to customers.<br /><br /></h4>
-					</section>
 
 				<!--Overlay-->
 				<!--
@@ -106,47 +110,79 @@
 					</div>
 					-->
 
+				
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Projects</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+				<!-- Three -->
+					<section id="contentbody">
+						<div id = "aboutme">
+							<h4>I am an embedded systems engineer with hands-on experience across the full product lifecycle — from ideation and prototyping all the way through development and deployment.<br><br> My work includes hardware design all the way through to firmware/software interactions. I combine my technical depth with a grounded approach focusing on delivering something real and impactful to customers.</h4>
+							<h4>
+							<div class="op-caret-list">
+								I have a proven track record of:
+								<details>
+									<summary>Quality PCBA Layouts</summary>
+									<div><blockquote>My designs have tackled microvolt precision analog circuits, high density demands, flex-PCBs, battery optimization, and more!<br>New needs are always on the horizon and continuously expanding my knowledge in this field is a lifelong pursuit.</blockquote></div>
+								</details>
+								<details>
+									<summary>Circuit Design Expertise</summary>
+									<div><blockquote>Combing through datasheets and running simulations is the open secret to a great initial design. Your embedded system design hinges on finding the right parts. Whether it's identifying the right microcontroller or the sampling tradeoffs of ADCs, taking the broad product needs to the low level is my specialty</blockquote></div>
+								</details>
+								<details>
+									<summary>Clean Firmware Development</summary>
+									<div><blockquote>I've worked with SPI,I2C,USART,CAN from peripheral definitions as well as defining my own between boards. Beyond that though, Making legible and modular code for others to collaborate with has been a primary current focus of mine. Technical debt can consume a product, especially when it comes to messy and aimless code.</blockquote></div>
+								</details>
+								<details>
+									<summary>Deliverables-Focused Project Management</summary>
+									<div><blockquote>Along with the technical side, I've developed in project management responsibilities. I've defined scope, responsibilities, development paths, and managed engineering contractors. My approach is lean and deliverables-focused: create value in small, but quick increments, keep scope clear, and make risks visible early.</blockquote></div>
+								</details>
+								<details>
+									<summary>Supplier and Manufacturing Excellence</summary>
+									<div><blockquote>Working directly with PCBA suppliers on testing and BOM concerns, I've reduced cost by 30-40% and cut failure rates nearly in half in some cases.<br>This is such an important step that's often overlooked in the product design lifecycle.</blockquote></div>
+								</details>
+							</div>
+							</h4>
 						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
 
+
+						<div id = "projects" class="container" style="display: none;">
+							<div class="row">
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="documents/The-Flavor-Bible.pdf" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+									<h3>Magna sed consequat tempus</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+									<h3>Ultricies lacinia interdum</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+									<h3>Tortor metus commodo</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+									<h3>Quam neque phasellus</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+									<h3>Nunc enim commodo aliquet</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+									<h3>Risus ornare lacinia</h3>
+									<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								</article>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Full Portfolio</a></li>
+							</ul>
+						</div>
+					</section>
+					</div>
 				<!-- Four -->
 				<!--
 					<section id="four">
